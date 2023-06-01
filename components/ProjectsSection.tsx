@@ -2,8 +2,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
-import { HiGlobeAmericas } from "react-icons/hi"
+import { BsGithub, BsGlobe2, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
@@ -78,7 +77,7 @@ const ProjectsSection = () => {
                         />
                       </Link>
                       <Link href={project.link} target="_blank">
-                        <HiGlobeAmericas
+                        <BsGlobe2
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
