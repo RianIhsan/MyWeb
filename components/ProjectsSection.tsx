@@ -11,7 +11,7 @@ const projects = [
       "Create a Create, Read, Update, and Delete User API using Go with the gofiber framework and Mysql database.",
     image: "/Crud.png",
     github: "https://github.com/RianIhsan/goCRUD",
-    link: "",
+    link: "https://fe-crud-students.vercel.app",
   },
   {
     name: "TODO List API",
