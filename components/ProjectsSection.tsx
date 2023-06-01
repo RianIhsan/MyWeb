@@ -2,7 +2,8 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, HiGlobeAmericas, BsArrowUpRightSquare } from "react-icons/bs"
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { HiGlobeAmericas } from "react-icons/hi"
 
 const projects = [
   {
