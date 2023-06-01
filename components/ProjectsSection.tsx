@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import { BsGithub, HiGlobeAmericas, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
@@ -72,6 +72,12 @@ const ProjectsSection = () => {
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
                         <BsGithub
+                          size={30}
+                          className="hover:-translate-y-1 transition-transform cursor-pointer"
+                        />
+                      </Link>
+                      <Link href={project.link} target="_blank">
+                        <HiGlobeAmericas
                           size={30}
                           className="hover:-translate-y-1 transition-transform cursor-pointer"
                         />
