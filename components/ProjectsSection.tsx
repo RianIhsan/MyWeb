@@ -24,9 +24,9 @@ const projects = [
     name: "JWT Authentication",
     description:
       "Creating an Authentication API using JSON WEB TOKEN, with Register, Login, and Logout endpoints, and using Mysql database.",
-    image: "/Jwt2.png",
+    image: "/exjwt.png",
     github: "https://github.com/RianIhsan/goAuthJWT",
-    link: "",
+    link: "https://auth-msdqn-v2.netlify.app",
   },
     {
     name: "Blogpost API",
