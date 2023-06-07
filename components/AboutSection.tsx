@@ -68,7 +68,7 @@ const AboutSection = () => {
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-[-105px] md:left-10 md:z-0"
+              className="hidden md:block md:relative md:bottom-[-105px] md:left-10 md:z-0 rounded-lg"
             />
           </div>
         </div>
