@@ -26,13 +26,13 @@ const HeroSection = () => {
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I'm Yon!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I'm a{" "}
-            <span className="font-semibold text-teal-600">
+            <span className="font-semibold text-sky-500">
               Junior Backend Developer{" "}
             </span>
             experienced in creating REST APIs, managing databases using MySQL or PostgreSQL, and proficient in Linux usage.
           </p>
           <button
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-sky-500 rounded shadow hover:bg-sky-700"
             onClick={handleDownloadCV}
           >
             Download CV
