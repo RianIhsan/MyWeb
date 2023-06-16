@@ -12,6 +12,9 @@ const HeroSection = () => {
   const handleDownloadCV = () => {
     window.open("https://drive.google.com/file/d/1sYsbQQTrrfZG7D15MQCtg-tVKg-s2qrX/view", "_blank");
   };
+  const handleGithub = () => {
+    window.open("https://github.com/RianIhsan", "_blank");
+  }
 
   return (
     <section id="home">
@@ -41,10 +44,17 @@ const HeroSection = () => {
             experienced in creating REST APIs, managing databases using MySQL or PostgreSQL, and proficient in Linux usage.
           </p>
           <button
-            className="text-neutral-100 font-semibold px-6 py-3 bg-sky-500 rounded shadow hover:bg-sky-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-sky-500 rounded shadow hover:bg-sky-700 mr-4"
             onClick={handleDownloadCV}
           >
             Download CV
+          </button>
+            
+          <button
+            className="text-neutral-100 font-semibold px-6 py-3 bg-sky-500 rounded shadow hover:bg-sky-700"
+            onClick={handleGithub}
+          >
+            My Github
           </button>
         </div>
       </div>
