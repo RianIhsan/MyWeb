@@ -2,9 +2,23 @@ import React from "react"
 import Image from "next/image"
 import Link from "next/link"
 import SlideUp from "./SlideUp"
-import { BsGithub, BsGlobe2, BsArrowUpRightSquare } from "react-icons/bs"
+import { BsGithub, BsGlobe2, } from "react-icons/bs"
 
 const projects = [
+  {
+    name: "Disappear | e commerce",
+    description: "Ecommerce API with Golang, Echo, MySql, Docker, Payment Gateway, and Redis.",
+    image: "/Screenshot from 2023-12-13 19-46-05.png",
+    github: "https://github.com/capstone-kelompok-7/backend-disappear",
+    link: "https://frontend-disappear.vercel.app"
+  },
+  {
+    name: "RaiseUnity | Crowdfunding API",
+    description: "Crowdfunding API with Golang, Gin, MySql, Docker, Payment Gateway",
+    image: "/1.jpg",
+    github: "https://github.com/RianIhsan/raise-unity",
+    link: ""
+  },
   {
     name: "Simple CRUD API",
     description:

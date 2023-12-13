@@ -10,7 +10,7 @@ import 'react-typed/dist/animatedCursor.css';
 
 const HeroSection = () => {
   const handleDownloadCV = () => {
-    window.open("https://drive.google.com/file/d/1sYsbQQTrrfZG7D15MQCtg-tVKg-s2qrX/view", "_blank");
+    window.open("https://drive.google.com/file/d/1xHUNKpR9xItncGWEsmn4kR0GotXw1LKz/view?usp=sharing", "_blank");
   };
   const handleGithub = () => {
     window.open("https://github.com/RianIhsan", "_blank");
@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/rianHero.png"
+            src="/Rian.jpeg"
             alt=""
             width={325}
             height={325}

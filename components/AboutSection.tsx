@@ -2,13 +2,12 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "Golang" },
   { skill: "RESTfull API" },
   { skill: "MySQL" },
   { skill: "Postgres SQL" },
+  { skill: "Redis" },
   { skill: "Docker" },
   { skill: "Git" },
   { skill: "GitHub" },
