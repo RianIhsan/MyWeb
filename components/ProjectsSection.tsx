@@ -6,6 +6,13 @@ import { BsGithub, BsGlobe2, } from "react-icons/bs"
 
 const projects = [
   {
+    name: "Ulinan | Ticket booking system",
+    description: "The tourism ticket booking system is built using Golang technology. This application is designed to provide efficient and secure tourism ticket booking services.",
+    image: "/Ulinan.png",
+    github: "https://github.com/RianIhsan/go-backend-ulinan",
+    link: "https://ulinan-fe.vercel.app/"
+  },
+  {
     name: "Disappear | e commerce",
     description: "Ecommerce API with Golang, Echo, MySql, Docker, Payment Gateway, and Redis.",
     image: "/Screenshot from 2023-12-13 19-46-05.png",
@@ -34,23 +41,6 @@ const projects = [
     github: "https://github.com/RianIhsan/backend-go-todo",
     link: "",
   },
-  {
-    name: "JWT Authentication",
-    description:
-      "Creating an Authentication API using JSON WEB TOKEN, with Register, Login, and Logout endpoints, and using Mysql database.",
-    image: "/exjwt.png",
-    github: "https://github.com/RianIhsan/goAuthJWT",
-    link: "https://auth-msdqn-v2.netlify.app",
-  },
-    {
-    name: "Blogpost API",
-    description:
-      "Creating a Blogpost API with validation when a user creates an account, there are several endpoints such as getAll Post, Get Post, Delete Post, Upload image, and others. As well as using MySQL as the database.",
-    image: "/Post.png",
-    github: "https://github.com/RianIhsan/Go-BackendWeb",
-    link: "",
-  },
-  
 ]
 
 const ProjectsSection = () => {
