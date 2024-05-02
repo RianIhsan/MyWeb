@@ -10,7 +10,7 @@ import 'react-typed/dist/animatedCursor.css';
 
 const HeroSection = () => {
   const handleDownloadCV = () => {
-    window.open("https://drive.google.com/file/d/1xHUNKpR9xItncGWEsmn4kR0GotXw1LKz/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1YNbiNFg8tw-SvTYRSu6d30se4J9Kyixn/view?usp=sharing", "_blank");
   };
   const handleGithub = () => {
     window.open("https://github.com/RianIhsan", "_blank");
@@ -21,9 +21,9 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/Rian.jpeg"
+            src="/bluebird.jpeg"
             alt=""
-            width={325}
+            width={290}
             height={325}
             className="rounded-full shadow-2xl"
           />
@@ -39,7 +39,7 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I'm a{" "}
             <span className="font-semibold text-sky-500">
-              Junior Backend Developer{" "}
+              Junior Backend Developer - Go Developer Intern At BlueBird Group{" "}
             </span>
             experienced in creating REST APIs, managing databases using MySQL or PostgreSQL, and proficient in Linux usage.
           </p>
