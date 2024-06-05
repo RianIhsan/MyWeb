@@ -10,7 +10,7 @@ import 'react-typed/dist/animatedCursor.css';
 
 const HeroSection = () => {
   const handleDownloadCV = () => {
-    window.open("https://drive.google.com/file/d/1YNbiNFg8tw-SvTYRSu6d30se4J9Kyixn/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1HxntrwkEoj9PfBE3Fuo2osXuxbF7-DXt/view?usp=sharing", "_blank");
   };
   const handleGithub = () => {
     window.open("https://github.com/RianIhsan", "_blank");
