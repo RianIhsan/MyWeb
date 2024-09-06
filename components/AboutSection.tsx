@@ -18,6 +18,15 @@ const skills = [
     skill: "Microservice"
   },
   {
+    skill: "PubSub"
+  },
+  {
+    skill: "Apache Kafka"
+  },
+  {
+    skill: "RabbitMQ"
+  },
+  {
     skill: "SQL/NoSQL"
   },
   {
@@ -54,15 +63,15 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I'm a backend developer specializing in Golang with 1 year of experience. I have expertise in creating REST APIs, working with databases like MySQL and PostgreSQL, and proficiency in Docker, Linux, and other backend skills. Additionally, I am skilled in Object-Relational Mapping (ORM).
+            I'm a backend developer specializing in Golang with 1 year of experience. I have expertise in creating REST APIs, working with databases like MySQL and PostgreSQL, and proficiency in Docker, Linux, and other backend skills. Additionally, I am skilled in gRPC, Microservice architecture, Redis, and Pub/Sub systems.
             </p>
             <br />
             <p>
-              I excel in developing robust RESTful APIs that serve as the foundation of web applications. I prioritize clean code, scalability, and efficient API design to ensure optimal performance. With my knowledge of ORM, I can seamlessly bridge the gap between object-oriented programming and relational databases, simplifying data manipulation and enhancing the overall development process.
+            I excel in developing robust RESTful APIs and microservices that serve as the foundation of scalable web applications. I prioritize clean code, scalability, and efficient API design to ensure optimal performance. With my knowledge of gRPC and microservices, I can build distributed systems that facilitate smooth communication between services, ensuring flexibility and maintainability.
             </p>
             <br />
             <p>
-              I am well-versed in containerization using Docker, enabling easy deployment, scalability, and management of applications. Additionally, my proficiency in Linux empowers me to optimize server-side operations for enhanced performance.
+            I am well-versed in Redis for efficient caching solutions and Pub/Sub systems for message-driven architectures, enabling real-time data processing and ensuring high scalability. My containerization expertise using Docker allows for easy deployment and management of services, and my proficiency in Linux helps me optimize server-side operations for enhanced performance.
             </p>
           </div>
           <div className="text-center md:w-1/2 md:text-left">
