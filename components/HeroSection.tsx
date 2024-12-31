@@ -10,7 +10,7 @@ import 'react-typed/dist/animatedCursor.css';
 
 const HeroSection = () => {
   const handleDownloadCV = () => {
-    window.open("https://drive.google.com/drive/u/1/folders/1aG28azpu4dAQ5xx-JMzmd3lHs1-U-Xhc", "_blank");
+    window.open("https://drive.google.com/file/d/1OYZfbeIdGebebrTNYx11Q3-D98CUC1CB/view?usp=sharing", "_blank");
   };
   const handleGithub = () => {
     window.open("https://github.com/RianIhsan", "_blank");
@@ -39,9 +39,9 @@ const HeroSection = () => {
           <p className="text-lg mt-4 mb-6 md:text-2xl">
             I'm a{" "}
             <span className="font-semibold text-sky-500">
-              Junior Backend Developer - Go Developer Intern At BlueBird Group{" "}
+              Junior Backend Developer - Ex Go Developer Intern At BlueBird Group{" "}
             </span>
-            experienced in creating REST APIs, managing databases using MySQL or PostgreSQL, and proficient in Linux usage.
+            experienced in microservice architecture, skilled in gRPC, REST APIs, and proficient in managing databases with MySQL, Postgresql, MongoDB, Redis, Elasticsearch along with extensive experience in Linux environments.
           </p>
           <button
             className="text-neutral-100 font-semibold px-6 py-3 bg-sky-500 rounded shadow hover:bg-sky-700 mr-4"
