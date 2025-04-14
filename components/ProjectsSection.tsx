@@ -6,6 +6,20 @@ import { BsGithub, BsGlobe2, } from "react-icons/bs"
 
 const projects = [
   {
+    name: "HackerRank | Golang Challenge",
+    description: "HackerRank is a platform for competitive programming and coding challenges. This repository contains solutions to various HackerRank challenges using Golang. The challenges cover a wide range of topics, including algorithms, data structures, and more.",
+    image: "/hck.png",
+    github: "https://github.com/RianIhsan/HackerRank-Golang",
+    link: ""
+  },
+  {
+    name: "YoPay | E-Wallet",
+    description: "YoPay is a digital wallet application that allows users to make transactions, transfer money, and manage their finances easily and securely. The application is built using Golang technology, ensuring high performance and reliability.",
+    image: "/ypay2.png",
+    github: "https://github.com/RianIhsan/go-ewallet-yopay",
+    link: ""
+  },
+  {
     name: "Ulinan | Ticket booking system",
     description: "The tourism ticket booking system is built using Golang technology. This application is designed to provide efficient and secure tourism ticket booking services.",
     image: "/Ulinan.png",
